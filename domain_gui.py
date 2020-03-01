@@ -10,7 +10,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QTableWidgetItem, QMessageBox
 
-from PyQt5Demo.lib.datatype import AttribDict
+from dnsFind.core.datatype import AttribDict
 from dnsFind.core.dnsfind import DnsFind
 from dnsFind.core.config import init_option
 
