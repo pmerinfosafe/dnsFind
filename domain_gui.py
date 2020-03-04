@@ -10,9 +10,9 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QTableWidgetItem, QMessageBox
 
-from dnsFind.core.datatype import AttribDict
-from dnsFind.core.dnsfind import DnsFind
-from dnsFind.core.config import init_option
+from core.datatype import AttribDict
+from core.dnsfind import DnsFind
+from core.config import init_option
 
 
 class Ui_MainWindow(object):

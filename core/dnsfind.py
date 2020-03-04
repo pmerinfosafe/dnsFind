@@ -2,7 +2,7 @@
 
 import socket, gevent, os
 from gevent.pool import Pool
-from dnsFind.core.utils import findreport, FindObj, getpath
+from core.utils import findreport, FindObj, getpath
 
 class DnsFind:
 
